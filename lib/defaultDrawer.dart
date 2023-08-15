@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-Widget drawer({required BuildContext context}) {
+Widget miDrawer({required BuildContext context,required String imagePath}) {
   return Drawer(
       backgroundColor: Colors.black54,
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 25.0),
         child: Column(
           children: [
-            const CircleAvatar(
+             CircleAvatar(
               radius: 130,
-              // backgroundImage: AssetImage(
-              //   'assets/images/go-wheels.png',
-              // ),
+              backgroundImage: AssetImage(
+                imagePath,
+              ),
             ),
             const SizedBox(
               height: 7,

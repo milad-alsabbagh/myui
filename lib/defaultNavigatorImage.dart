@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-Widget navigatorImage(
+Widget miNavigatorImage(
     {required String imagePath,
       double ratio=0.5,
       required BuildContext context,
